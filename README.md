@@ -1,34 +1,31 @@
 # Informações
-## Bibliotecas necessárioas para rodar o projeto
+## Bibliotecas necessárias para rodar o projeto
 ```bash
-pip install google-api-python-client
-pip install google-auth-httplib2
-pip install google-auth-oauthlib
-pip install pandas
-```
-## Para criar um requirements.txt
-```bash
-pip freeze > requirements.txt
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+pandas
 ```
 <br><br>
 
 # Orientações para rodar o projeto
-## Criar ambiente virtual
-```bash
-python -m venv venv
-```
-### Ativar o ambiente virtual
-```bash
-source venv/Scripts/activate
-```
-- Se ativar corretamente vai aparecer algo assim:
-```bash
-(venv) C:\Users\Bruno\controle_aulas> 
-```
-### Desativar o ambiente virtual
-```bash
-deactivate
-```
+## Ambiente virtual
+- Criar o ambiente virtual
+    ```bash
+    python -m venv venv
+    ```
+- Ativar o ambiente virtual
+    ```bash
+    source venv/Scripts/activate
+    ```
+    OBS:  Se ativar corretamente vai aparecer algo assim:
+    ```bash
+    (venv) C:\Users\Bruno\controle_aulas> 
+    ```
+- Desativar o ambiente virtual
+    ```bash
+    deactivate
+    ```
 ## Instalar as dependências do requirements.txt
 ```bash
 pip install -r requirements.txt
